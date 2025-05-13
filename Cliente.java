@@ -79,8 +79,8 @@ public class Cliente extends JFrame {
                 } catch (NumberFormatException ex) {
                     JOptionPane.showMessageDialog(
                         Cliente.this,
-                        "Ingresa un número válido.",
-                        "Error de formato",
+                        "iNGRESE UN DATO VALIDO",
+                        "ERROR",
                         JOptionPane.ERROR_MESSAGE
                     );
                 } catch (IOException ex) {
